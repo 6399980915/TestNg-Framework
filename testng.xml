@@ -3,9 +3,12 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Test.Login"/>
-      <class name="Test.PosPage"/>
+      <class name="Test.foodersCpPage"/>
       <class name="Test.InventorySupplierPage"/>
+      <class name="Test.LogoutPage"/>
+      <class name="Test.PosPage"/>
+      <class name="Test.ReportsPage"/>
+      <class name="Test.Login"/>
       <class name="Test.inventoryPage"/>
     </classes>
   </test> <!-- Test -->

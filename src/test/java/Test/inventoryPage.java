@@ -13,7 +13,8 @@ import Base.BaseFile;
 public class inventoryPage extends BaseFile {
 
 	BaseFile Base = new BaseFile();
-@Test(priority = 7)
+
+	@Test(priority = 7)
 	public void click_on_intventory() {
 		driver = new ChromeDriver();
 		driver.get(prop.getProperty("url"));
@@ -87,7 +88,7 @@ public class inventoryPage extends BaseFile {
 	}
 
 	////////////////////////////////////// Purchase///////////////////////////////////////////
-@Test(priority = 8)
+	@Test(priority = 8)
 	public void click_on_purchase() {
 		driver = new ChromeDriver();
 		driver.get(prop.getProperty("url"));
@@ -160,7 +161,7 @@ public class inventoryPage extends BaseFile {
 	}
 
 ////////////////////////////////////////Staff///////////////////////////////////////////////
-@Test(priority = 4)
+	@Test(priority = 4)
 	public void click_on_staff() {
 		driver = new ChromeDriver();
 		driver.get(prop.getProperty("url"));
@@ -203,7 +204,7 @@ public class inventoryPage extends BaseFile {
 
 	/////////////////////////////////////// Manage
 	/////////////////////////////////////// Dishes///////////////////////////////////////////////////
-@Test(priority = 5)
+	@Test(priority = 5)
 	public void click_on_manage_dishes() {
 
 		driver = new ChromeDriver();
@@ -222,31 +223,32 @@ public class inventoryPage extends BaseFile {
 		WebElement manageDishesbtn = driver
 				.findElement(By.xpath("//span[@class=\"menu-title\"][text()=\"Manage Dishes\"]"));
 		clickOnElement(manageDishesbtn);
-		
+
 		WebElement Categorybtn = driver
 				.findElement(By.xpath("//span[@class=\"menu-title\"][text()=\"Category/Menu\"]"));
 		clickOnElement(Categorybtn);
-		
+
 		WebElement addcategoryBtn = driver
 				.findElement(By.xpath("//span[@class=\"btn btn-primary text-white mb-0 me-0\"]"));
 		clickOnElement(addcategoryBtn);
-		
+
 		WebElement enterName = driver.findElement(By.xpath("//input[@placeholder=\"Enter Menu Name\"]"));
 		enterName.sendKeys("Auto");
-		
+
 		WebElement enterTag = driver.findElement(By.xpath("//input[@placeholder=\"Add a tag & hit Enter\"]"));
 		enterTag.sendKeys("Testing", "Test");
-		
+
 		WebElement submitbtn = driver.findElement(By.xpath("//button[@class=\"btn btn-primary me-2\"]"));
 		clickOnElement(submitbtn);
-		
+
 		WebElement backBtn = driver.findElement(By.xpath("//span[@class=\"btn btn-danger mb-0 me-0\"]"));
 		clickOnElement(backBtn);
-		
+
 	}
+
 	///////////////////////////////////////// Product
 	///////////////////////////////////////// Dishes/////////////////////////////////////
-@Test(priority = 6)
+	@Test(priority = 6)
 	public void click_on_dishes_products() {
 
 		driver = new ChromeDriver();
@@ -261,70 +263,68 @@ public class inventoryPage extends BaseFile {
 		WebElement loginbtn = driver.findElement(
 				By.cssSelector("button.btn.btn-block.btn-primary.btn-lg.font-weight-medium.auth-form-btn.col-12"));
 		clickOnElement(loginbtn);
-		
+
 		WebElement manageDishesbtn = driver
 				.findElement(By.xpath("//span[@class=\"menu-title\"][text()=\"Manage Dishes\"]"));
 		clickOnElement(manageDishesbtn);
-		
 
 		WebElement ProductDishBtn = driver
 				.findElement(By.xpath("//span[@class=\"menu-title\"][text()=\"Dishes/Products\"]"));
 		clickOnElement(ProductDishBtn);
-		
+
 		WebElement AddProductDishBtn = driver
 				.findElement(By.xpath("//span[@class=\"btn btn-primary text-white mb-0 me-0\"]"));
 		clickOnElement(AddProductDishBtn);
-		
+
 		WebElement menuCategoryDropdown = driver.findElement(By.xpath("//input[@id=\"react-select-2-input\"]"));
 		menuCategoryDropdown.sendKeys("Automation");
 		WebElement Dropdown = driver.findElement(By.xpath("//input[@id=\"react-select-2-input\"]"));
 		Dropdown.sendKeys(Keys.ENTER);
-		
+
 		WebElement enterName = driver.findElement(By.xpath("//input[@placeholder=\"Enter Menu Name\"]"));
 		enterName.sendKeys("Veg kabab Paratha");
-		
+
 		WebElement dishType = driver.findElement(By.xpath("//input[@id=\"veg\"]"));
 		clickOnElement(dishType);
-		
+
 		WebElement timeForPreparation = driver.findElement(By.xpath("//select[@name=\"preparation_time\"]"));
 		timeForPreparation.sendKeys("5");
-		
+
 		WebElement enterBase = driver.findElement(By.xpath("//input[@placeholder=\"Price\"]"));
 		enterBase.sendKeys("100");
-		
+
 		WebElement promoPrice = driver.findElement(By.xpath("//input[@placeholder=\"Promo Price\"]"));
 		promoPrice.sendKeys("99");
-		
+
 		WebElement taxDropdown = driver.findElement(By.xpath("//select[@class=\"form-select\"][@name=\"tax\"]"));
 		clickOnElement(taxDropdown);
-		
+
 		WebElement Dropdown1 = driver.findElement(By.xpath("//option[@value=\"0\"][text()=\"0% GST\"]"));
 		clickOnElement(Dropdown1);
-		
+
 		WebElement taxTypeDropdown = driver
 				.findElement(By.xpath("//select[@class=\"form-select\"][@name=\"tax_type\"]"));
 		clickOnElement(taxTypeDropdown);
-		
+
 		WebElement Dropdown2 = driver.findElement(By.xpath("//option[text()=\"Include\"]"));
 		clickOnElement(Dropdown2);
-		
+
 		WebElement Dinein = driver.findElement(By.xpath("//input[@name=\"dine_in\"]"));
 		clickOnElement(Dinein);
 		WebElement Delivery = driver.findElement(By.xpath("//input[@name=\"delivery\"]"));
 		clickOnElement(Delivery);
 		WebElement Pickup = driver.findElement(By.xpath("//input[@name=\"pick_up\"]"));
 		clickOnElement(Pickup);
-		
+
 		WebElement description = driver.findElement(By.xpath("//textarea[@placeholder=\"Enter Description\"]"));
 		description.sendKeys("Automation Testing");
-		
+
 		WebElement submitbtn = driver.findElement(By.xpath("//button[@class=\"btn btn-primary me-2\"]"));
 		clickOnElement(submitbtn);
 	}
 
-	
 	/////////////////////////////// Recipes///////////////////////////////////////////////
-	
+
 	public void click_on_inventory() {
 		driver = new ChromeDriver();
 		driver.get(prop.getProperty("url"));
@@ -338,13 +338,12 @@ public class inventoryPage extends BaseFile {
 		WebElement loginbtn = driver.findElement(
 				By.cssSelector("button.btn.btn-block.btn-primary.btn-lg.font-weight-medium.auth-form-btn.col-12"));
 		clickOnElement(loginbtn);
-		
+
 		WebElement inventorybtn = driver.findElement(By.xpath("//a[@href=\"#ui-basic\"]"));
 		clickOnElement(inventorybtn);
-		
+
 		WebElement recipesBtn = driver.findElement(By.xpath("//span[@class=\"menu-title\"][text()=\"Recipes\"]"));
 		clickOnElement(recipesBtn);
 	}
-
 
 }

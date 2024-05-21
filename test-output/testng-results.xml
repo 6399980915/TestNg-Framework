@@ -1,47 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
+<testng-results ignored="0" total="13" passed="11" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-21T15:59:30 IST" name="Suite" finished-at="2024-05-21T16:02:13 IST" duration-ms="162943">
+  <suite started-at="2024-05-21T18:53:24 IST" name="Suite" finished-at="2024-05-21T18:59:46 IST" duration-ms="381928">
     <groups>
     </groups>
-    <test started-at="2024-05-21T15:59:30 IST" name="Test" finished-at="2024-05-21T16:02:13 IST" duration-ms="162943">
+    <test started-at="2024-05-21T18:53:24 IST" name="Test" finished-at="2024-05-21T18:59:46 IST" duration-ms="381928">
+      <class name="Test.foodersCpPage">
+        <test-method signature="FooderCp()[pri:0, instance:Test.foodersCpPage@4f6ee6e4]" started-at="2024-05-21T18:53:25 IST" name="FooderCp" finished-at="2024-05-21T18:53:41 IST" duration-ms="16351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FooderCp -->
+      </class> <!-- Test.foodersCpPage -->
       <class name="Test.InventorySupplierPage">
-        <test-method signature="click_on_supplier_button()[pri:3, instance:Test.InventorySupplierPage@4fb61f4a]" started-at="2024-05-21T16:00:13 IST" name="click_on_supplier_button" finished-at="2024-05-21T16:00:26 IST" duration-ms="13225" status="PASS">
+        <test-method signature="click_on_supplier_button()[pri:3, instance:Test.InventorySupplierPage@6379eb]" started-at="2024-05-21T18:53:41 IST" name="click_on_supplier_button" finished-at="2024-05-21T18:53:56 IST" duration-ms="14999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_on_supplier_button -->
       </class> <!-- Test.InventorySupplierPage -->
       <class name="Test.PosPage">
-        <test-method signature="click_the_Pos_button()[pri:1, instance:Test.PosPage@3e58a80e]" started-at="2024-05-21T15:59:39 IST" name="click_the_Pos_button" finished-at="2024-05-21T15:59:57 IST" duration-ms="18579" status="PASS">
+        <test-method signature="click_the_Pos_button()[pri:1, instance:Test.PosPage@67d48005]" started-at="2024-05-21T18:54:23 IST" name="click_the_Pos_button" finished-at="2024-05-21T18:54:39 IST" duration-ms="15820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_the_Pos_button -->
-        <test-method signature="counter_button()[pri:2, instance:Test.PosPage@3e58a80e]" started-at="2024-05-21T15:59:57 IST" name="counter_button" finished-at="2024-05-21T16:00:13 IST" duration-ms="15627" status="PASS">
+        <test-method signature="counter_button()[pri:2, instance:Test.PosPage@67d48005]" started-at="2024-05-21T18:54:39 IST" name="counter_button" finished-at="2024-05-21T18:54:56 IST" duration-ms="17153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- counter_button -->
       </class> <!-- Test.PosPage -->
+      <class name="Test.ReportsPage">
+        <test-method signature="Reports()[pri:0, instance:Test.ReportsPage@9f116cc]" started-at="2024-05-21T18:54:56 IST" name="Reports" finished-at="2024-05-21T18:55:15 IST" duration-ms="18613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reports -->
+        <test-method signature="click_on_Every_Reports()[pri:0, instance:Test.ReportsPage@9f116cc]" started-at="2024-05-21T18:55:15 IST" name="click_on_Every_Reports" finished-at="2024-05-21T18:55:33 IST" duration-ms="18557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_Every_Reports -->
+      </class> <!-- Test.ReportsPage -->
       <class name="Test.Login">
-        <test-method signature="user_validate_the_username_and_password()[pri:0, instance:Test.Login@2e005c4b]" started-at="2024-05-21T15:59:30 IST" name="user_validate_the_username_and_password" finished-at="2024-05-21T15:59:39 IST" duration-ms="9138" status="PASS">
+        <test-method signature="user_validate_the_username_and_password()[pri:0, instance:Test.Login@12468a38]" started-at="2024-05-21T18:55:33 IST" name="user_validate_the_username_and_password" finished-at="2024-05-21T18:55:46 IST" duration-ms="12518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- user_validate_the_username_and_password -->
       </class> <!-- Test.Login -->
+      <class name="Test.LogoutPage">
+        <test-method signature="Logout()[pri:0, instance:Test.LogoutPage@294425a7]" started-at="2024-05-21T18:53:56 IST" name="Logout" finished-at="2024-05-21T18:54:23 IST" duration-ms="27215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- Test.LogoutPage -->
       <class name="Test.inventoryPage">
-        <test-method signature="click_on_staff()[pri:4, instance:Test.inventoryPage@4fb0f2b9]" started-at="2024-05-21T16:00:26 IST" name="click_on_staff" finished-at="2024-05-21T16:00:41 IST" duration-ms="14562" status="PASS">
+        <test-method signature="click_on_staff()[pri:4, instance:Test.inventoryPage@1aa7ecca]" started-at="2024-05-21T18:55:46 IST" name="click_on_staff" finished-at="2024-05-21T18:56:05 IST" duration-ms="18723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_on_staff -->
-        <test-method signature="click_on_manage_dishes()[pri:5, instance:Test.inventoryPage@4fb0f2b9]" started-at="2024-05-21T16:00:41 IST" name="click_on_manage_dishes" finished-at="2024-05-21T16:00:55 IST" duration-ms="14350" status="PASS">
+        <test-method signature="click_on_manage_dishes()[pri:5, instance:Test.inventoryPage@1aa7ecca]" started-at="2024-05-21T18:56:05 IST" name="click_on_manage_dishes" finished-at="2024-05-21T18:56:27 IST" duration-ms="22287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_on_manage_dishes -->
-        <test-method signature="click_on_dishes_products()[pri:6, instance:Test.inventoryPage@4fb0f2b9]" started-at="2024-05-21T16:00:55 IST" name="click_on_dishes_products" finished-at="2024-05-21T16:01:15 IST" duration-ms="19378" status="PASS">
+        <test-method signature="click_on_dishes_products()[pri:6, instance:Test.inventoryPage@1aa7ecca]" started-at="2024-05-21T18:56:27 IST" name="click_on_dishes_products" finished-at="2024-05-21T18:56:50 IST" duration-ms="23541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_on_dishes_products -->
-        <test-method signature="click_on_intventory()[pri:7, instance:Test.inventoryPage@4fb0f2b9]" started-at="2024-05-21T16:01:15 IST" name="click_on_intventory" finished-at="2024-05-21T16:01:45 IST" duration-ms="29954" status="FAIL">
+        <test-method signature="click_on_intventory()[pri:7, instance:Test.inventoryPage@1aa7ecca]" started-at="2024-05-21T18:56:50 IST" name="click_on_intventory" finished-at="2024-05-21T18:58:13 IST" duration-ms="83086" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="vsalign"][text()="Raw Materials added successfully!!!"]"}
@@ -50,9 +72,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [86e99615a74fc5184a88f0b4d8e8bcbc, findElement {using=xpath, value=//div[@class="vsalign"][text()="Raw Materials added successfully!!!"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.60, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64137}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64137/devtoo..., se:cdpVersion: 125.0.6422.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86e99615a74fc5184a88f0b4d8e8bcbc]]>
+Command: [fd8d6bb058cf4bf177e3d78f97dde9f3, findElement {value=//div[@class="vsalign"][text()="Raw Materials added successfully!!!"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.60, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52332/devtoo..., se:cdpVersion: 125.0.6422.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd8d6bb058cf4bf177e3d78f97dde9f3]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="vsalign"][text()="Raw Materials added successfully!!!"]"}
@@ -61,9 +83,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.21.0', revision: '79ed462ef4'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [86e99615a74fc5184a88f0b4d8e8bcbc, findElement {using=xpath, value=//div[@class="vsalign"][text()="Raw Materials added successfully!!!"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.60, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64137}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64137/devtoo..., se:cdpVersion: 125.0.6422.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86e99615a74fc5184a88f0b4d8e8bcbc
+Command: [fd8d6bb058cf4bf177e3d78f97dde9f3, findElement {value=//div[@class="vsalign"][text()="Raw Materials added successfully!!!"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.60, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52332/devtoo..., se:cdpVersion: 125.0.6422.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd8d6bb058cf4bf177e3d78f97dde9f3
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -78,7 +100,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at Test.inventoryPage.click_on_intventory(inventoryPage.java:84)
+at Test.inventoryPage.click_on_intventory(inventoryPage.java:85)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -111,7 +133,73 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_on_intventory -->
-        <test-method signature="click_on_purchase()[pri:8, instance:Test.inventoryPage@4fb0f2b9]" started-at="2024-05-21T16:01:45 IST" name="click_on_purchase" finished-at="2024-05-21T16:02:13 IST" duration-ms="28012" status="PASS">
+        <test-method signature="click_on_purchase()[pri:8, instance:Test.inventoryPage@1aa7ecca]" started-at="2024-05-21T18:58:14 IST" name="click_on_purchase" finished-at="2024-05-21T18:59:46 IST" duration-ms="92585" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class="fs-20 mdi mdi-check-decagram text-info vsalign"]"}
+  (Session info: chrome=125.0.6422.60)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c352dcba5166ec164d5ad0d86e57ceae, findElement {value=//i[@class="fs-20 mdi mdi-check-decagram text-info vsalign"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.60, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52386}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52386/devtoo..., se:cdpVersion: 125.0.6422.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c352dcba5166ec164d5ad0d86e57ceae]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class="fs-20 mdi mdi-check-decagram text-info vsalign"]"}
+  (Session info: chrome=125.0.6422.60)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c352dcba5166ec164d5ad0d86e57ceae, findElement {value=//i[@class="fs-20 mdi mdi-check-decagram text-info vsalign"], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.60, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52386}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52386/devtoo..., se:cdpVersion: 125.0.6422.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c352dcba5166ec164d5ad0d86e57ceae
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at Test.inventoryPage.click_on_purchase(inventoryPage.java:146)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_on_purchase -->

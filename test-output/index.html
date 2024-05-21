@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                    <span class="method-stats">13 methods, 2 failed,   11 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -107,6 +107,11 @@
                         <a href="#" panel-name="suite-Suite" title="Test.inventoryPage" class="method navigator-link" hash-for-method="click_on_intventory">click_on_intventory</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.inventoryPage" class="method navigator-link" hash-for-method="click_on_purchase">click_on_purchase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
@@ -118,17 +123,32 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.foodersCpPage" class="method navigator-link" hash-for-method="FooderCp">FooderCp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.LogoutPage" class="method navigator-link" hash-for-method="Logout">Logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.ReportsPage" class="method navigator-link" hash-for-method="Reports">Reports</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Test.ReportsPage" class="method navigator-link" hash-for-method="click_on_Every_Reports">click_on_Every_Reports</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Test.inventoryPage" class="method navigator-link" hash-for-method="click_on_dishes_products">click_on_dishes_products</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Test.inventoryPage" class="method navigator-link" hash-for-method="click_on_manage_dishes">click_on_manage_dishes</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Test.inventoryPage" class="method navigator-link" hash-for-method="click_on_purchase">click_on_purchase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -185,9 +205,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [86e99615a74fc5184a88f0b4d8e8bcbc, findElement {using=xpath, value=//div[@class=&quot;vsalign&quot;][text()=&quot;Raw Materials added successfully!!!&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.60, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64137}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64137/devtoo..., se:cdpVersion: 125.0.6422.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86e99615a74fc5184a88f0b4d8e8bcbc
+Command: [fd8d6bb058cf4bf177e3d78f97dde9f3, findElement {value=//div[@class=&quot;vsalign&quot;][text()=&quot;Raw Materials added successfully!!!&quot;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.60, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52332}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52332/devtoo..., se:cdpVersion: 125.0.6422.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fd8d6bb058cf4bf177e3d78f97dde9f3
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -199,7 +219,38 @@ Session ID: 86e99615a74fc5184a88f0b4d8e8bcbc
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at Test.inventoryPage.click_on_intventory(inventoryPage.java:84)
+	at Test.inventoryPage.click_on_intventory(inventoryPage.java:85)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_purchase">
+                  </a> <!-- click_on_purchase -->
+                  <span class="method-name">click_on_purchase</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//i[@class=&quot;fs-20 mdi mdi-check-decagram text-info vsalign&quot;]&quot;}
+  (Session info: chrome=125.0.6422.60)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c352dcba5166ec164d5ad0d86e57ceae, findElement {value=//i[@class=&quot;fs-20 mdi mdi-check-decagram text-info vsalign&quot;], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.60, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52386}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52386/devtoo..., se:cdpVersion: 125.0.6422.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c352dcba5166ec164d5ad0d86e57ceae
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at Test.inventoryPage.click_on_purchase(inventoryPage.java:146)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
@@ -207,6 +258,21 @@ Session ID: 86e99615a74fc5184a88f0b4d8e8bcbc
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.LogoutPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logout">
+                  </a> <!-- Logout -->
+                  <span class="method-name">Logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -218,6 +284,72 @@ Session ID: 86e99615a74fc5184a88f0b4d8e8bcbc
                   <a name="click_on_supplier_button">
                   </a> <!-- click_on_supplier_button -->
                   <span class="method-name">click_on_supplier_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.foodersCpPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FooderCp">
+                  </a> <!-- FooderCp -->
+                  <span class="method-name">FooderCp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.ReportsPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Reports">
+                  </a> <!-- Reports -->
+                  <span class="method-name">Reports</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_Every_Reports">
+                  </a> <!-- click_on_Every_Reports -->
+                  <span class="method-name">click_on_Every_Reports</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.inventoryPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_dishes_products">
+                  </a> <!-- click_on_dishes_products -->
+                  <span class="method-name">click_on_dishes_products</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_manage_dishes">
+                  </a> <!-- click_on_manage_dishes -->
+                  <span class="method-name">click_on_manage_dishes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="click_on_staff">
+                  </a> <!-- click_on_staff -->
+                  <span class="method-name">click_on_staff</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -259,42 +391,6 @@ Session ID: 86e99615a74fc5184a88f0b4d8e8bcbc
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Test.inventoryPage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="click_on_dishes_products">
-                  </a> <!-- click_on_dishes_products -->
-                  <span class="method-name">click_on_dishes_products</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="click_on_manage_dishes">
-                  </a> <!-- click_on_manage_dishes -->
-                  <span class="method-name">click_on_manage_dishes</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="click_on_purchase">
-                  </a> <!-- click_on_purchase -->
-                  <span class="method-name">click_on_purchase</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="click_on_staff">
-                  </a> <!-- click_on_staff -->
-                  <span class="method-name">click_on_staff</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -307,9 +403,12 @@ Session ID: 86e99615a74fc5184a88f0b4d8e8bcbc
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Test.Login&quot;/&gt;
-      &lt;class name=&quot;Test.PosPage&quot;/&gt;
+      &lt;class name=&quot;Test.foodersCpPage&quot;/&gt;
       &lt;class name=&quot;Test.InventorySupplierPage&quot;/&gt;
+      &lt;class name=&quot;Test.LogoutPage&quot;/&gt;
+      &lt;class name=&quot;Test.PosPage&quot;/&gt;
+      &lt;class name=&quot;Test.ReportsPage&quot;/&gt;
+      &lt;class name=&quot;Test.Login&quot;/&gt;
       &lt;class name=&quot;Test.inventoryPage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
@@ -324,7 +423,7 @@ Session ID: 86e99615a74fc5184a88f0b4d8e8bcbc
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (4 classes)</span>
+                <span class="test-name">Test (7 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -350,48 +449,64 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(13);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'click_on_intventory')
+data.setCell(0, 1, 'click_on_purchase')
 data.setCell(0, 2, 'Test.inventoryPage')
-data.setCell(0, 3, 29954);
+data.setCell(0, 3, 92585);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'click_on_purchase')
+data.setCell(1, 1, 'click_on_intventory')
 data.setCell(1, 2, 'Test.inventoryPage')
-data.setCell(1, 3, 28012);
+data.setCell(1, 3, 83086);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'click_on_dishes_products')
-data.setCell(2, 2, 'Test.inventoryPage')
-data.setCell(2, 3, 19378);
+data.setCell(2, 1, 'Logout')
+data.setCell(2, 2, 'Test.LogoutPage')
+data.setCell(2, 3, 27215);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'click_the_Pos_button')
-data.setCell(3, 2, 'Test.PosPage')
-data.setCell(3, 3, 18579);
+data.setCell(3, 1, 'click_on_dishes_products')
+data.setCell(3, 2, 'Test.inventoryPage')
+data.setCell(3, 3, 23541);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'counter_button')
-data.setCell(4, 2, 'Test.PosPage')
-data.setCell(4, 3, 15627);
+data.setCell(4, 1, 'click_on_manage_dishes')
+data.setCell(4, 2, 'Test.inventoryPage')
+data.setCell(4, 3, 22287);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'click_on_staff')
 data.setCell(5, 2, 'Test.inventoryPage')
-data.setCell(5, 3, 14562);
+data.setCell(5, 3, 18723);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'click_on_manage_dishes')
-data.setCell(6, 2, 'Test.inventoryPage')
-data.setCell(6, 3, 14350);
+data.setCell(6, 1, 'Reports')
+data.setCell(6, 2, 'Test.ReportsPage')
+data.setCell(6, 3, 18613);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'click_on_supplier_button')
-data.setCell(7, 2, 'Test.InventorySupplierPage')
-data.setCell(7, 3, 13225);
+data.setCell(7, 1, 'click_on_Every_Reports')
+data.setCell(7, 2, 'Test.ReportsPage')
+data.setCell(7, 3, 18557);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'user_validate_the_username_and_password')
-data.setCell(8, 2, 'Test.Login')
-data.setCell(8, 3, 9138);
+data.setCell(8, 1, 'counter_button')
+data.setCell(8, 2, 'Test.PosPage')
+data.setCell(8, 3, 17153);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'FooderCp')
+data.setCell(9, 2, 'Test.foodersCpPage')
+data.setCell(9, 3, 16351);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'click_the_Pos_button')
+data.setCell(10, 2, 'Test.PosPage')
+data.setCell(10, 3, 15820);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'click_on_supplier_button')
+data.setCell(11, 2, 'Test.InventorySupplierPage')
+data.setCell(11, 3, 14999);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'user_validate_the_username_and_password')
+data.setCell(12, 2, 'Test.Login')
+data.setCell(12, 3, 12518);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -417,53 +532,80 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Test.Login</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Test.foodersCpPage</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">user_validate_the_username_and_password</span>
+                <span class="method-name">FooderCp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">Test.PosPage</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">click_the_Pos_button</span>
-                <span class="method-start">9147 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">counter_button</span>
-                <span class="method-start">27731 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test.InventorySupplierPage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">click_on_supplier_button</span>
-                <span class="method-start">43359 ms</span>
+                <span class="method-start">16362 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.LogoutPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Logout</span>
+                <span class="method-start">31363 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.PosPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">click_the_Pos_button</span>
+                <span class="method-start">58582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">counter_button</span>
+                <span class="method-start">74419 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.ReportsPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Reports</span>
+                <span class="method-start">91574 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">click_on_Every_Reports</span>
+                <span class="method-start">110190 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_validate_the_username_and_password</span>
+                <span class="method-start">128749 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Test.inventoryPage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">click_on_staff</span>
-                <span class="method-start">56586 ms</span>
+                <span class="method-start">141270 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">click_on_manage_dishes</span>
-                <span class="method-start">71151 ms</span>
+                <span class="method-start">159995 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">click_on_dishes_products</span>
-                <span class="method-start">85508 ms</span>
+                <span class="method-start">182284 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">click_on_intventory</span>
-                <span class="method-start">104889 ms</span>
+                <span class="method-start">205826 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">click_on_purchase</span>
-                <span class="method-start">134867 ms</span>
+                <span class="method-start">289270 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -5,6 +5,7 @@
     <classes>
       <class name="Test.inventoryPage">
         <methods>
+          <include name="click_on_purchase"/>
           <include name="click_on_intventory"/>
         </methods>
       </class> <!-- Test.inventoryPage -->
